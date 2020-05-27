@@ -1,0 +1,49 @@
+{
+	// Don't make changes to this file directly as they can get wiped out when the
+	// plugin is updated. Instead transfer what you need to the 'Settings - User' file.
+
+	// The directory where we'll keep our backups. If empty, we'll try to put them in
+	// D:/Sublime Text Backups
+	"backup_dir": "D:/Sublime Text Backups",
+
+	// If true, also save a backup copy any time a file is opened (if backup file not exists)
+	"backup_on_open_file": true,
+
+	// If true, backups saved per day, in separate folders, for example D:/Sublime Text Backups/2013-05-23/myfile.php
+	"backup_per_day": true,
+
+	// If set, backups saved per second. possible values: false, "folder" or "file"
+	// false - disabled backup per second
+	// "folder" - backup example D:/Sublime Text Backups/2013-05-23/095034/myfile.php
+	// "file" - backup example D:/Sublime Text Backups/2013-05-23/myfile_095034.php
+	// to use this feature, you must have enabled backup_per_day setting
+	"backup_per_time": "file",
+
+	// If, set will change the name of the file according to mode:
+	// prefix: "auto-save.myfile_095034.php"
+	// suffix: myfile_095034.auto-save.php
+	// if None or false won't change the name
+	"backup_name_mode": false,
+
+	// Files larger than this many bytes won't be backed up.
+	"max_backup_file_size_bytes": 262144, // = 256 KB
+
+	// Files older than X days will be deleted. If 0 - auto delete disabled
+	"delete_old_backups": 0, // days to delete
+
+	// ignore files/folders which match regexes
+	"ignore_regexes": [
+		// VCS folders
+		"/\\.svn/", "/\\.hg/", "/\\.git/", "/\\.bzr/"
+		// binary extensions
+		,"\\.(jpg|JPG|jpeg|JPEG|pjpeg|PJPEG|gif|GIF|png|PNG|apng|APNG|bmp|BMP|mp3|MP3|mid|MID|wav|WAV|au|AU|mp4|MP4|3gp|3GP|avi|AVI|wmv|WMV|mpeg|MPEG|mpg|MPG|mkv|MKV|swf|SWF|flv|FLV|zip|ZIP|rar|RAR|tar|TAR|tgz|TGZ|gz|GZ|bz2?|BZ2?|pdf|PDF|docx?|DOCX?|xlsx?|XLSX?|pptx?|PPTX?|rtf|RTF|psd|PSD|cdr|CDR|fla|FLA|exe|EXE)$"
+	],
+
+	// If true, backup file opened in same line as cursor in original file
+	"open_in_same_line": true,
+
+	// If true, show backup previews (only in ST3)
+	"show_previews": true
+
+
+}

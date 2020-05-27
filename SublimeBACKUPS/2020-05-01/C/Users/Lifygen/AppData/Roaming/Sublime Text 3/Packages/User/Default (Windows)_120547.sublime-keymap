@@ -1,0 +1,5 @@
+[
+    //Open Terminal Console
+    { "keys": ["ctrl+t"], "command": "open_terminal" },
+    { "keys": ["alt+p"], "command": "Package Control" },
+]

@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 04 07:32:00 2020
+
+@author: Lifygen
+
+Install.txt covers the following:
+
+    1. How to install the code.
+	   Two ways to install the code:
+	    1) Unzip the zipfile in the proper folder.
+		2) Just copy the files into a valid Python project folder.
+		   (inventory.py, recipes.py, ingredients.py, Python_Sams15_Ex.py)
+
+    Note:  Always write this in plain text.

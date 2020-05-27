@@ -1,0 +1,11 @@
+{
+ "cmd":["C:/Python27/python.exe", "-u", "$file"],
+ "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+ "selector": "source.python",
+ "shell": true,
+ "working_dir": "C:/Users/Lifygen/projects/python"
+
+// "working_dir": "$file_dir"
+//"target": "console_exec"
+
+}

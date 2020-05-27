@@ -1,0 +1,30 @@
+{
+    "Monday": {"Breakfast": "Horseradish omelet.  Note: better than it sounds",
+               "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+               "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+               },
+    "Tuesday": {"Breakfast": "Sausage gravy over biscuits.  Note:  Toast can be subbed.",
+                "Lunch": "Grilled cheese adn tomato soup.  Note:  We have vegan cheese.",
+                "Dinner": "Meatloaf.  Note:  Comes with catsup on the top.  Not optional."
+                },
+    "Wednesday": {"Breakfast": "Horseradish omelet.  Note:  better than it sounds",
+                  "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+                  "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+                  },
+    "Thursday": {"Breakfast": "Horseradish omelet.  Note:  better than it sounds",
+                 "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+                 "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+                 },
+    "Friday": {"Breakfast": "Horseradish omelet.  Note:  better than it sounds",
+               "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+               "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+               },
+    "Saturday": {"Breakfast": "Horseradish omelet.  Note:  better than it sounds",
+                 "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+                 "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+                 },
+    "Sunday": {"Breakfast": "Horseradish omelet.  Note:  better than it sounds",
+               "Lunch": "Momma\'s Curry.  Note:  Can be made spicy.",
+               "Dinner": "Beef brisket.  Note:  Comes with au jus.  That\'s pronounced \"oh jhoo\", not \"Ow Juice\" "
+               }
+}

@@ -1,0 +1,8 @@
+# The module imported is not important, it's used only to
+# trigger the execution of the following line.
+# This only executes if site is imported first and the directory that 
+# this file is in is added to PYTHONPATH via .addsitedir
+#>>>import site
+#>>>site.addsitedir("C:\Users\Lifygen\projects\python")
+#It only executes if the first line is "Import" or a comment
+import hack1.sys

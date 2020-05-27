@@ -1,0 +1,89 @@
+
+//a[./preceding-sibling::h2[.='TAG1']][./following-sibling::h2[.='TAG2']]
+
+CONTENT1 = driver.find_elements_by_xpath("//a[@name='toc799303_37']/following::*")
+CONTENT2 = driver.find_elements_by_xpath("//a[@name='toc799303_38']/preceding::*")
+
+CONTENT3 = driver.find_elements_by_xpath(
+           "//a[Aname='toc799303_37']/following::"+
+		   "//a[Aname='toc799303_38']")
+
+CONTENT5 = driver.find_elements_by_xpath(
+           "//a[./preceding-sibling::@name='toc799303_37']" +
+		      "[./following-sibling:://a[@name='toc799303_38']")
+			  
+			  
+EDGAR Doc:  LINE 6737
+<DOCUMENT>
+	<TEXT>
+		<HTML><HEAD><TITLE> A Doc Title </TITLE></HEAD>
+		<BODY>
+			<p Style='page-break-before:always'>
+			<DIV <P><B><A NAME="Anchor#1"></A> > Chapter Title 1 - (changes from doc to doc) </B></P>
+				<P several paragraphs></P>
+				<div> # a sub-division with other paragraphs>
+					<P subPara#1></P>
+					<P subPara#...></P>
+					<P subPara#n></P>
+				</div>
+				</P>
+			</DIV>
+			<p Style='page-break-before:always'>
+			<DIV sibling division without an anchor >
+				<P Para#1> </P>
+				<P Para#...></P>
+				<P Para#n></P>
+				<P></P>
+			</DIV>
+			<p Style='page-break-before:always'>
+			<DIV <P><B><A NAME="Anchor#2"></A> > Chapter Title 2 - (changes from doc to doc) </B></P>
+				<P paragraphs with a division of other paragraphs
+				<div><P subPara#1></P>
+				     <P subPara#...></P>
+				     <P subPara#n></P>
+				</div>
+			</DIV>
+		</BODY></HTML>
+	</TEXT></DOCUMENT>
+
+#xpath trying to get DIV based on anchor Returns []
+contentRange1 = driver.find_elements_by_xpath(
+                "//DIV[@NAME='Anchor#1']")
+
+#xpath Returns []
+contentRange1 = driver.find_elements_by_xpath(
+                "//DIV[@NAME='Anchor#1]")
+	
+	
+	myList = ['holder', 'proposal', 'resolve']
+	for each in myList:
+		if each.lower in parts:
+			<<Do something>>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

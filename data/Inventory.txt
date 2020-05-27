@@ -1,0 +1,6 @@
+flour (lb)	25
+bannana	8
+eggs	48
+tomato sauce (cans)	20
+milk (gal)	10
+mozz cheese (lb)	10

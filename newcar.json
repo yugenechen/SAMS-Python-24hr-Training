@@ -1,0 +1,23 @@
+{
+  "newCar": {
+    "features": {
+      "stowaway_seats": true, 
+      "cup_holders": 2, 
+      "cruise_control": false, 
+      "automatic_windows": true
+    }, 
+    "color": [
+      "red"
+    ], 
+    "make": [
+      "Mitsubishi"
+    ], 
+    "transmission": [
+      "automatic"
+    ], 
+    "doors": [
+      4
+    ], 
+    "model": "Lancer"
+  }
+}

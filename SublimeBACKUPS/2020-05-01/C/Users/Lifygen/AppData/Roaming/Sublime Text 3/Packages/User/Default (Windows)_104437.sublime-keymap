@@ -1,0 +1,5 @@
+[
+	{ "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "Package Control:Install Package"} },
+	
+	
+]

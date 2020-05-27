@@ -1,0 +1,4 @@
+[
+  { "keys": ["alt+p"], "command": "show_overlay", "args":  {"overlay": "command_palette:Package Control:Install Package"} },
+  { "keys": ["alt+y"], "command": "show_overlay", "args":  {"overlay": "command_palette" , "Package Control", "Install Package"}}
+]

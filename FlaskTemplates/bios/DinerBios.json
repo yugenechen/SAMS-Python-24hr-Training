@@ -1,0 +1,20 @@
+{
+    "Owner": {"name": "Julie Maryst",
+              "age": 37,
+              "gender": "F",
+              "started": 12,
+              "background": "Julie established 'Paradise Cafe' in 2008."
+              },
+    "Cook": {"name": "Steve Martin",
+             "age": 42,
+             "gender": "M",
+             "started": 5,
+             "background": "Steve has been cooking up delicious meals since 1990!  He joined the Paradise cafe in 2015."
+             },
+    "Waiter": {"name": "Marty Stephens",
+              "age": 19,
+              "gender": "M",
+              "started": 1,
+              "background": "Marty is our newest addition and began serving diners in 2019."
+              }
+}

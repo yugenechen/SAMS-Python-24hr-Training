@@ -1,0 +1,6 @@
+[
+// Open iTerm
+    { "keys": ["ctrl+alt+t"], "command": "open_terminal" },
+    // Open iTerm
+    { "keys": ["alt+p"], "command": "Package Control" },
+]

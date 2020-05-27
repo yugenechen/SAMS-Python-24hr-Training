@@ -1,0 +1,30 @@
+{
+    "Monday": {"Breakfast": "Two eggs (anystyle) and two strips of bacon",
+               "Lunch": "Ham and cheese and half cup of broccoli and cheese soup",
+               "Dinner": "Ribeye steak and baked potato"
+               },
+    "Tuesday": {"Breakfast": "Soft boiled egg with collard greens.",
+                "Lunch": "Grilled cheese and fries.",
+                "Dinner": "Stir fry - beef and green onions with white rice."
+         },
+    "Wednesday": {"Breakfast": "scrabled eggs on wheat toast.",
+                  "Lunch": "Cheeseburger and onion rings",
+                  "Dinner": "Baked chicken, red potatoes, and green beans"
+         },
+    "Thursday": {"Breakfast": "Cheese omelette with a sausage patty",
+                 "Lunch": "Chicken salad, fruit cup with yogurt.",
+                 "Dinner": "Pepperoni pizza."
+         },
+    "Friday": {"Breakfast": "Two eggs (anystyle) and two strips of bacon",
+               "Lunch": "Meat Lasagna",
+               "Dinner": "Two hotdogs on wheat bread"
+         },
+    "Saturday": {"Breakfast": "One egg on rasin toast with two strips of bacon",
+                 "Lunch": "Ham and cabbage with boiled potatoes",
+                 "Dinner": "Dates, raspberries, with yogurt"
+         },
+    "Sunday": {"Breakfast": "Egg, rice, and oniong fried rice",
+               "Lunch": "Fried pepperoni with Ramen noodles and vegetables",
+               "Dinner": "Popcorn"
+         }
+}

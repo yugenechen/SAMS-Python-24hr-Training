@@ -1,0 +1,8 @@
+[
+    //Open Terminal Console
+//    { "keys": ["ctrl+shift+t"], "command": "open_terminal" },
+    //Open Package Control
+    { "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["alt+z"], "command": "command_palette"},
+
+]
