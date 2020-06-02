@@ -1,0 +1,36 @@
+<documentRoot>
+<!-- Test data -->
+<DOCUMENT>
+	<TEXT>
+		<HTML><HEAD><TITLE> A Doc Title </TITLE></HEAD>
+		<BODY>
+			<P Style='page-break-before:always'>
+			<DIV <P><B><A NAME="Anchor#1"></A> > Chapter Title 1 - (changes from doc to doc) </B></P>
+				<P several paragraphs></P>
+				<div> # a sub-division with other paragraphs>
+					<P subPara#1></P>
+					<P subPara#...></P>
+					<P subPara#n></P>
+				</div>
+				</P>
+			</DIV>
+			<p Style='page-break-before:always'></p>
+			<DIV sibling division without an anchor >
+				<P Para#1> </P>
+				<P Para#...></P>
+				<P Para#n></P>
+				<P>footnote</P>
+			</DIV>
+			<P Style='page-break-before:always'>
+			<DIV <P><B><A NAME="Anchor#2"></A> > Chapter Title 2 - (changes from doc to doc) </B></P>
+				<P paragraphs with a division of other paragraphs>
+				<div><P subPara#1></P>
+				     <P subPara#...></P>
+				     <P subPara#n></P>
+				</div></P>
+			</P></DIV>
+		</BODY>
+		</HTML>
+	</TEXT>
+</DOCUMENT>
+</documentRoot>

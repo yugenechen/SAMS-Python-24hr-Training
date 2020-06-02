@@ -3,7 +3,7 @@
 Created on Tue May  5 15:39:55 2020
 
 @author: Jeff
-edited: 05/07/2020 - Gene Chen
+edited: 05/07/2020 - Yu-Gene Chen
         1. Added remDuplicates()
         2. Added 1-liner code to remove duplicates from parts (isntead of
            calling the remDuplicates() ).
@@ -12,6 +12,7 @@ edited: 05/07/2020 - Gene Chen
            Actually, instead of getting text between two, I get all DIV of a
            after an anchor.  You could also modify it to get all 'text' after
            an anchor.
+        5. Good reference is https://www.w3schools.com/xml/xpath_syntax.asp
 """
 
 #############################
@@ -227,7 +228,7 @@ if __name__ == "__main__":
     # get just one anchor worth of data (i.e. one whole chapter)
     # *****
     '''
-    # manually copied from the webbrowoser teh AAPL_URL based on above query
+    # manually copied from the webbrowoser the AAPL_URL based on above query
     # then manually coded it into AAPL_URL here:
     # AAPL_URL = "https://www.sec.gov/Archives/edgar/data/320193/000119312520001450/d799303ddef14a.htm"
     # driver.get(url)
@@ -391,7 +392,7 @@ for each in parts:
 # contentAnchor returns the DIV contents where the Anchor Resides.
 contentAnchor = driver.find_elements_by_xpath(
               "//a[@name='toc799303_37']/ancestor::div")
-# contentProp4_6 gets all DIV contents after teh defined Anchor 
+# contentProp4_6 gets all DIV contents after the defined Anchor
 # (1st page is a partial duplicate; it is just missing the title)
 contentProp4_6 = driver.find_elements_by_xpath(
               "//*[contains(@name,'toc799303_37')]/following::div"
